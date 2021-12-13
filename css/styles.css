@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: chocolate;
+    
+
+}
+
+nav{
+    position: fixed;
+    top: -18px;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+#navbar__list{
+    
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+}
+main {
+    position: initial;
+    font-size: 1.5rem;
+    display: flex;
+    top: revert;
+    flex-direction: column;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+    color: darkslategrey;
+}
+
+h2{
+    font-size: 3rem;
+    margin-top: 8rem;
+}
+
+li{
+    color: cornsilk;
+}
+.page__footer{
+    background-color: brown;
+    text-align: center;
+}
+#link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.your-active-class{
+    background-color: white;
+    opacity: 0.8;
+}
