@@ -8,7 +8,7 @@ for(const section of sections){
     const createLink =document.createElement("a");
     createLink.href = "#"+section.id;
     createLink.innerHTML= section.dataset.nav;
-    createLink.setAttribute('id', 'link');
+    createLink.setAttribute('class', 'link');
     navbar.appendChild(createLi);
     createLi.appendChild(createLink);
 }
