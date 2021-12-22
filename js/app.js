@@ -24,7 +24,7 @@ var iSInViewport = function(elem){
         distance.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
-window.addEventListener('scroll',function(){
+window.addEventListener('scroll',function(event){
     sections.forEach(Element=> {
         if (iSInViewport(Element)){
             Element.classList.add("your-active-class");
