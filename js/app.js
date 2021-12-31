@@ -38,24 +38,6 @@ window.addEventListener('scroll',function(event){
 performance.now();
 
 
-////// I tried tihs method befor asking in stackOverflow and it did not work, can i now how
-///// fix this method? /////////////////
-
-
-
-// function addSection(){
-//     const ul = document.getElementById("navbar__list");
-//     var section = document.querySelectorAll("section");
-//     for( let i= 0; i< section.length; i++){
-//         var li= ul.appendChild(document.createElement("li"));
-//         link=document.createElement("a");
-//         li.appendChild(link);
-//         link.innerHTML = "Section"+[i++];
-//         link.href =section.data-nav;
-//         link.setAttribute('id', 'link');
-//     }
-//     return ul
-// }
 
 
 
